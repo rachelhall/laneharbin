@@ -1,0 +1,47 @@
+.lh-thumbnail-container {
+  position: relative;
+  width: 50%;
+}
+
+.lh-thumbnail {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.lh-thumbnail-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #D17B5F;
+}
+
+.lh-thumbnail-container:hover .lh-thumbnail-overlay {
+  opacity: 1;
+}
+
+.lh-thumbnail-text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.js-slider {
+  display: flex;
+  padding: 25px;
+}
+
+.lh-thumbnail-container {
+  padding: 0 25px;
+}
